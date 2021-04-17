@@ -1,4 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(155, 155, 155, 0.8)), url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1, p {
+    font-family: 'Roboto Mono', monospace;
+}
+h1 {
+    align-self: center;
+}
+
+#grid{
+
+}
+
+.element{
+    min-width: 150px;
+    min-height: 150px;
+    background-color: #92D1FF;
+    border-radius: 25px;
+}body {
     /*background-image: url("src/background.jpg");*/
 }
 
