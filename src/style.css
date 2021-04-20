@@ -28,4 +28,42 @@ h1 {
 h1 {
     align: center;
     font-size: 100px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(155, 155, 155, 0.8)), url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+h1, p {
+    font-family: 'Roboto Mono', monospace;
+}
+h1 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.grid{
+    width: 40vmax;
+    height: 40vmax;
+    min-width: 300px;
+    min-height: 300px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.element{
+    width: 30%;
+    height: 30%;
+    background-color: #82C9E8;
+    border-radius: 25px;
+    align-self: center;
+    text-align: center;
+    font-size: 22px;
+    color: midnightblue;
+}}
