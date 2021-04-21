@@ -5,37 +5,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-h1, p {
-    font-family: 'Roboto Mono', monospace;
-}
-h1 {
-    align-self: center;
-}
-
-#grid{
-
-}
-
-.element{
-    min-width: 150px;
-    min-height: 150px;
-    background-color: #92D1FF;
-    border-radius: 25px;
-}body {
-    /*background-image: url("src/background.jpg");*/
-}
-
-h1 {
-    align: center;
-    font-size: 100px;
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-
-body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(155, 155, 155, 0.8)), url("background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-h1, p {
+h1, .front {
     font-family: 'Roboto Mono', monospace;
 }
 h1 {
@@ -57,7 +27,7 @@ h1 {
     align-content: space-around;
 }
 
-.element{
+.frontSide{
     width: 30%;
     height: 30%;
     background-color: #82C9E8;
@@ -66,4 +36,15 @@ h1 {
     text-align: center;
     font-size: 22px;
     color: midnightblue;
-}}
+}
+
+.backSide{
+    width: 30%;
+    height: 30%;
+    background-color: #82C9E8;
+    border-radius: 25px;
+    align-self: center;
+    text-align: center;
+    font-size: 22px;
+    color: midnightblue;
+}
