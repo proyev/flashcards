@@ -6,8 +6,7 @@ body {
     background-repeat: no-repeat;
 }
 h1,
-.front,
-.back{
+p{
     font-family: 'Roboto Mono', monospace;
 }
 h1 {
@@ -27,7 +26,6 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
-
 }
 
 .card{
@@ -38,7 +36,6 @@ h1 {
     text-align: center;
     transition: all 1s linear;
     transform-style: preserve-3d;
-
 }
 
 .card:hover{
